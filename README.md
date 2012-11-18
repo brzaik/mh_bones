@@ -1,4 +1,4 @@
-mh_bones
+do_bones
 ========
 
-Minimalist Wordpress theme for mutablehorizon.com based on Bones theme.
+Dark, minimalist Wordpress theme based on the Bones theme.
