@@ -1,0 +1,22 @@
+.icon {
+  display: inline-block;
+  text-decoration: none !important;
+  @include transition(none);
+
+  &.rss {
+    background: url(../images/rss.png);
+    width: 20px;
+    height: 20px;
+
+    &:hover {
+      background-position: 0px -20px;
+    }
+  }
+
+  &.logoimg {
+    background: url(../images/mhlogo_transp.png);
+    width: 189px;
+    height: 100px;
+  }
+
+}

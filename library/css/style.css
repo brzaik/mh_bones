@@ -1034,7 +1034,7 @@ HEADER SYTLES
   background-color: black;
   text-align: center;
   margin: 0px;
-  padding-top: 20px;
+  padding: 20px 0px;
 }
 /* line 179, ../scss/_base.scss */
 .header.select-1 {
@@ -1071,11 +1071,15 @@ HEADER SYTLES
   letter-spacing: 0.15em;
   text-decoration: underline;
 }
-/* line 209, ../scss/_base.scss */
+/* line 207, ../scss/_base.scss */
+.header h2 .icon.rss {
+  line-height: 0.9em;
+}
+/* line 213, ../scss/_base.scss */
 .header .sub-nav p {
   font-size: 1.5em;
 }
-/* line 214, ../scss/_base.scss */
+/* line 218, ../scss/_base.scss */
 .header .logoimg {
   margin: 0.5em 0;
 }
@@ -1093,7 +1097,7 @@ easily just write on group of styles for
 the navs on the site and our css is cleaner
 and moe scalable.
 */
-/* line 236, ../scss/_base.scss */
+/* line 240, ../scss/_base.scss */
 .nav {
   padding-bottom: 1px;
   background: transparent;
@@ -1101,7 +1105,7 @@ and moe scalable.
   /* highlight current page */
   /* end current highlighters */
 }
-/* line 240, ../scss/_base.scss */
+/* line 244, ../scss/_base.scss */
 .nav li {
   /*
   so you really have to rethink your dropdowns for mobile.
@@ -1111,7 +1115,7 @@ and moe scalable.
   http://www.alistapart.com/articles/organizing-mobile/
   */
 }
-/* line 242, ../scss/_base.scss */
+/* line 246, ../scss/_base.scss */
 .nav li a {
   display: block;
   text-decoration: none;
@@ -1124,19 +1128,19 @@ and moe scalable.
   keep this file as small as possible!
   */
 }
-/* line 275, ../scss/_base.scss */
+/* line 279, ../scss/_base.scss */
 .nav li ul.sub-menu li a,
 .nav li ul.children li a {
   padding-left: 30px;
 }
-/* line 300, ../scss/_base.scss */
+/* line 304, ../scss/_base.scss */
 .nav li.current-menu-item a,
 .nav li.current_page_item a,
 .nav li.current-page-ancestor a {
   color: white;
   background: #4d4d4d;
 }
-/* line 304, ../scss/_base.scss */
+/* line 308, ../scss/_base.scss */
 .nav li.current-menu-item a:hover,
 .nav li.current_page_item a:hover,
 .nav li.current-page-ancestor a:hover {
@@ -1146,14 +1150,14 @@ and moe scalable.
 }
 
 /* end .nav */
-/* line 316, ../scss/_base.scss */
+/* line 320, ../scss/_base.scss */
 #main-nav {
   float: left;
   width: 100%;
   overflow: hidden;
   position: relative;
 }
-/* line 322, ../scss/_base.scss */
+/* line 326, ../scss/_base.scss */
 #main-nav ul {
   clear: left;
   float: left;
@@ -1164,7 +1168,7 @@ and moe scalable.
   left: 50%;
   text-align: center;
 }
-/* line 333, ../scss/_base.scss */
+/* line 337, ../scss/_base.scss */
 #main-nav ul li {
   display: block;
   float: left;
@@ -1174,7 +1178,7 @@ and moe scalable.
   position: relative;
   right: 50%;
 }
-/* line 343, ../scss/_base.scss */
+/* line 347, ../scss/_base.scss */
 #main-nav ul li a {
   display: block;
   margin: 0 0 0 1px;
@@ -1185,7 +1189,7 @@ and moe scalable.
 /*********************
 SEARCH STYLES
 *********************/
-/* line 354, ../scss/_base.scss */
+/* line 358, ../scss/_base.scss */
 input#s {
   border: 1px solid #222;
   background: #1d1d1d url(../images/search.png) no-repeat 5px 6px;
@@ -1213,7 +1217,7 @@ input#s {
   transition: all 0.2s linear;
   max-width: 90%;
 }
-/* line 366, ../scss/_base.scss */
+/* line 370, ../scss/_base.scss */
 input#s:focus {
   background-color: #999999;
   color: black;
@@ -1223,15 +1227,15 @@ input#s:focus {
 POSTS & CONTENT STYLES
 *********************/
 /* end .hentry */
-/* line 390, ../scss/_base.scss */
+/* line 394, ../scss/_base.scss */
 .article-header {
   margin-bottom: 18px;
 }
-/* line 393, ../scss/_base.scss */
+/* line 397, ../scss/_base.scss */
 .article-header .h2 {
   margin-bottom: 4px;
 }
-/* line 396, ../scss/_base.scss */
+/* line 400, ../scss/_base.scss */
 .article-header .byline {
   margin-top: 0px;
   color: #525252;
@@ -1240,7 +1244,7 @@ POSTS & CONTENT STYLES
 /* want to style individual post classes? Booya! */
 /* post by id (i.e. post-3) */
 /* general post style */
-/* line 411, ../scss/_base.scss */
+/* line 415, ../scss/_base.scss */
 .post {
   margin-bottom: 40px;
 }
@@ -1252,13 +1256,13 @@ POSTS & CONTENT STYLES
 /* style by category (i.e. category-videos) */
 /* style by tag (i.e. tag-news) */
 /* post meta */
-/* line 422, ../scss/_base.scss */
+/* line 426, ../scss/_base.scss */
 .byline {
   color: #999;
 }
 
 /* entry content */
-/* line 429, ../scss/_base.scss */
+/* line 433, ../scss/_base.scss */
 .entry-content {
   color: #b7b7b7;
   line-height: 1.7em;
@@ -1270,78 +1274,78 @@ POSTS & CONTENT STYLES
   but it's up to you. Feel free to change it up.
   */
 }
-/* line 434, ../scss/_base.scss */
+/* line 438, ../scss/_base.scss */
 .entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6, .entry-content h7, .entry-content h8 {
   color: white;
   margin-top: 2em;
 }
-/* line 438, ../scss/_base.scss */
+/* line 442, ../scss/_base.scss */
 .entry-content h1 {
   font-size: 1.8em;
 }
-/* line 439, ../scss/_base.scss */
+/* line 443, ../scss/_base.scss */
 .entry-content h2 {
   font-size: 1.5em;
 }
-/* line 440, ../scss/_base.scss */
+/* line 444, ../scss/_base.scss */
 .entry-content h3 {
   font-size: 1.3em;
 }
-/* line 441, ../scss/_base.scss */
+/* line 445, ../scss/_base.scss */
 .entry-content h4 {
   font-size: 1.15em;
 }
-/* line 442, ../scss/_base.scss */
+/* line 446, ../scss/_base.scss */
 .entry-content h5, .entry-content h6, .entry-content h7, .entry-content h8 {
   font-size: 1em;
 }
-/* line 449, ../scss/_base.scss */
+/* line 453, ../scss/_base.scss */
 .entry-content ul, .entry-content ol {
   margin-left: 40px;
 }
-/* line 452, ../scss/_base.scss */
+/* line 456, ../scss/_base.scss */
 .entry-content ul li, .entry-content ol li {
   list-style-type: square;
   padding-left: 6px;
   margin-bottom: 4px;
 }
-/* line 482, ../scss/_base.scss */
+/* line 486, ../scss/_base.scss */
 .entry-content dd {
   margin-left: 0;
   font-size: 0.9em;
   color: #787878;
   margin-bottom: 1.5em;
 }
-/* line 489, ../scss/_base.scss */
+/* line 493, ../scss/_base.scss */
 .entry-content img {
   margin: 0px;
   max-width: 100%;
   height: auto;
 }
-/* line 505, ../scss/_base.scss */
+/* line 509, ../scss/_base.scss */
 .entry-content video, .entry-content object {
   max-width: 100%;
   height: auto;
 }
-/* line 510, ../scss/_base.scss */
+/* line 514, ../scss/_base.scss */
 .entry-content pre {
   padding: 10px;
   line-height: normal;
 }
 
 /* end .entry-content */
-/* line 517, ../scss/_base.scss */
+/* line 521, ../scss/_base.scss */
 .wp-caption {
   background: #eee;
   padding: 5px;
   /* images inside wp-caption */
 }
-/* line 522, ../scss/_base.scss */
+/* line 526, ../scss/_base.scss */
 .wp-caption img {
   margin-bottom: 0;
   width: 100%;
 }
-/* line 527, ../scss/_base.scss */
+/* line 531, ../scss/_base.scss */
 .wp-caption p.wp-caption-text {
   font-size: 0.85em;
   margin: 4px 0 7px;
@@ -1355,13 +1359,13 @@ POSTS & CONTENT STYLES
 /******************************************************************
 PAGE NAVI STYLES
 ******************************************************************/
-/* line 565, ../scss/_base.scss */
+/* line 569, ../scss/_base.scss */
 .page-navigation,
 .wp-prev-next {
   margin: 1.1em 0 2.2em;
 }
 
-/* line 568, ../scss/_base.scss */
+/* line 572, ../scss/_base.scss */
 .bones_page_navi {
   /* current page link */
   /* end .bones_page_navi .bpn-current */
@@ -1372,44 +1376,44 @@ PAGE NAVI STYLES
   /* first page link */
   /* last page link */
 }
-/* line 570, ../scss/_base.scss */
+/* line 574, ../scss/_base.scss */
 .bones_page_navi li {
   float: left;
   margin-left: 10px;
 }
-/* line 574, ../scss/_base.scss */
+/* line 578, ../scss/_base.scss */
 .bones_page_navi li a {
   padding: 3px 6px;
   display: block;
   text-decoration: none;
   position: relative;
 }
-/* line 581, ../scss/_base.scss */
+/* line 585, ../scss/_base.scss */
 .bones_page_navi li a:hover, .bones_page_navi li a:focus {
   color: #f01d4f;
   text-decoration: underline;
 }
-/* line 590, ../scss/_base.scss */
+/* line 594, ../scss/_base.scss */
 .bones_page_navi li.bpn-current {
   padding: 3px 6px;
   border-bottom: 2px solid #f01d4f;
   position: relative;
 }
-/* line 595, ../scss/_base.scss */
+/* line 599, ../scss/_base.scss */
 .bones_page_navi li.bpn-current a {
   /* hovering on current page link */
 }
-/* line 606, ../scss/_base.scss */
+/* line 610, ../scss/_base.scss */
 .bones_page_navi li.bpn-prev-link,
 .bones_page_navi li.bpn-next-link {
   font-weight: 700;
 }
-/* line 609, ../scss/_base.scss */
+/* line 613, ../scss/_base.scss */
 .bones_page_navi li.bpn-prev-link a,
 .bones_page_navi li.bpn-next-link a {
   padding: 0;
 }
-/* line 618, ../scss/_base.scss */
+/* line 622, ../scss/_base.scss */
 .bones_page_navi li.bpn-prev-link a:hover,
 .bones_page_navi li.bpn-next-link a:hover,
 .bones_page_navi li.bpn-first-page-link a:hover,
@@ -1419,11 +1423,11 @@ PAGE NAVI STYLES
 
 /* end .bones_page_navi */
 /* fallback previous & next links */
-/* line 661, ../scss/_base.scss */
+/* line 665, ../scss/_base.scss */
 .wp-prev-next .prev-link {
   float: left;
 }
-/* line 665, ../scss/_base.scss */
+/* line 669, ../scss/_base.scss */
 .wp-prev-next .next-link {
   float: right;
 }
@@ -1433,7 +1437,7 @@ PAGE NAVI STYLES
 COMMENT STYLES
 ******************************************************************/
 /* h3 comment title */
-/* line 676, ../scss/_base.scss */
+/* line 680, ../scss/_base.scss */
 #comments {
   border-top: solid 1px #333333;
   padding-top: 30px;
@@ -1443,7 +1447,7 @@ COMMENT STYLES
   /* number of comments span */
 }
 
-/* line 698, ../scss/_base.scss */
+/* line 702, ../scss/_base.scss */
 .commentlist {
   /* general comment classes */
   /* vcard */
@@ -1454,12 +1458,12 @@ COMMENT STYLES
   /* comment reply link */
   /* end .commentlist .comment-reply-link */
 }
-/* line 700, ../scss/_base.scss */
+/* line 704, ../scss/_base.scss */
 .commentlist .comment {
   background: #111;
   border: solid 1px #333333;
 }
-/* line 705, ../scss/_base.scss */
+/* line 709, ../scss/_base.scss */
 .commentlist li {
   position: relative;
   clear: both;
@@ -1469,55 +1473,55 @@ COMMENT STYLES
   padding: 0.7335em 10px;
   /* end .commentlist li ul.children */
 }
-/* line 713, ../scss/_base.scss */
+/* line 717, ../scss/_base.scss */
 .commentlist li:last-child {
   margin-bottom: 0;
 }
-/* line 717, ../scss/_base.scss */
+/* line 721, ../scss/_base.scss */
 .commentlist li ul.children {
   margin: 0px 0px 12px 18px;
   /* variations */
   /* change number for different depth */
 }
-/* line 737, ../scss/_base.scss */
+/* line 741, ../scss/_base.scss */
 .commentlist li[class*=depth-] {
   margin-top: 1.1em;
 }
-/* line 741, ../scss/_base.scss */
+/* line 745, ../scss/_base.scss */
 .commentlist li.depth-1 {
   margin-left: 0;
   margin-top: 0;
 }
-/* line 746, ../scss/_base.scss */
+/* line 750, ../scss/_base.scss */
 .commentlist li:not(.depth-1) {
   margin-right: -10px;
   margin-left: -10px;
   margin-top: 0;
   padding-bottom: 0;
 }
-/* line 773, ../scss/_base.scss */
+/* line 777, ../scss/_base.scss */
 .commentlist .vcard {
   margin-left: 50px;
 }
-/* line 776, ../scss/_base.scss */
+/* line 780, ../scss/_base.scss */
 .commentlist .vcard cite.fn {
   font-weight: 700;
   font-style: normal;
 }
-/* line 784, ../scss/_base.scss */
+/* line 788, ../scss/_base.scss */
 .commentlist .vcard time {
   float: right;
 }
-/* line 787, ../scss/_base.scss */
+/* line 791, ../scss/_base.scss */
 .commentlist .vcard time a {
   color: #999;
   text-decoration: none;
 }
-/* line 791, ../scss/_base.scss */
+/* line 795, ../scss/_base.scss */
 .commentlist .vcard time a:hover {
   text-decoration: underline;
 }
-/* line 801, ../scss/_base.scss */
+/* line 805, ../scss/_base.scss */
 .commentlist .vcard img.avatar {
   position: absolute;
   left: 10px;
@@ -1525,17 +1529,17 @@ COMMENT STYLES
   border: 1px solid #cecece;
   background: #fff;
 }
-/* line 826, ../scss/_base.scss */
+/* line 830, ../scss/_base.scss */
 .commentlist .comment_content {
   margin-left: 50px;
 }
-/* line 829, ../scss/_base.scss */
+/* line 833, ../scss/_base.scss */
 .commentlist .comment_content p {
   margin: 0.7335em 0 1.5em;
   font-size: 1em;
   line-height: 1.5em;
 }
-/* line 838, ../scss/_base.scss */
+/* line 842, ../scss/_base.scss */
 .commentlist .comment-reply-link {
   text-decoration: none;
   float: right;
@@ -1547,7 +1551,7 @@ COMMENT STYLES
   font-weight: 700;
   font-size: 0.9em;
 }
-/* line 850, ../scss/_base.scss */
+/* line 854, ../scss/_base.scss */
 .commentlist .comment-reply-link:hover, .commentlist .comment-reply-link:focus {
   opacity: 1;
 }
@@ -1556,28 +1560,28 @@ COMMENT STYLES
 /******************************************************************
 COMMENT FORM STYLES
 ******************************************************************/
-/* line 862, ../scss/_base.scss */
+/* line 866, ../scss/_base.scss */
 .respond-form {
   background: #262626;
   margin: 1.5em 10px;
   padding: 2em;
 }
-/* line 867, ../scss/_base.scss */
+/* line 871, ../scss/_base.scss */
 .respond-form form {
   margin: 0.75em 0;
 }
-/* line 870, ../scss/_base.scss */
+/* line 874, ../scss/_base.scss */
 .respond-form form li {
   list-style-type: none;
   clear: both;
   margin-bottom: 0.7335em;
 }
-/* line 876, ../scss/_base.scss */
+/* line 880, ../scss/_base.scss */
 .respond-form form li label,
 .respond-form form li small {
   display: none;
 }
-/* line 884, ../scss/_base.scss */
+/* line 888, ../scss/_base.scss */
 .respond-form form input[type=text],
 .respond-form form input[type=email],
 .respond-form form input[type=url],
@@ -1590,7 +1594,7 @@ COMMENT FORM STYLES
   color: #999999;
   /* form validation */
 }
-/* line 892, ../scss/_base.scss */
+/* line 896, ../scss/_base.scss */
 .respond-form form input[type=text]:focus,
 .respond-form form input[type=email]:focus,
 .respond-form form input[type=url]:focus,
@@ -1598,7 +1602,7 @@ COMMENT FORM STYLES
   color: white;
   background-color: #111;
 }
-/* line 898, ../scss/_base.scss */
+/* line 902, ../scss/_base.scss */
 .respond-form form input[type=text]:invalid,
 .respond-form form input[type=email]:invalid,
 .respond-form form input[type=url]:invalid,
@@ -1611,14 +1615,14 @@ COMMENT FORM STYLES
   -ms-box-shadow: none;
   box-shadow: none;
 }
-/* line 911, ../scss/_base.scss */
+/* line 915, ../scss/_base.scss */
 .respond-form form input[type=text],
 .respond-form form input[type=email],
 .respond-form form input[type=url] {
   max-width: 400px;
   min-width: 250px;
 }
-/* line 916, ../scss/_base.scss */
+/* line 920, ../scss/_base.scss */
 .respond-form form textarea {
   resize: none;
   width: 97.3%;
@@ -1628,7 +1632,7 @@ COMMENT FORM STYLES
 
 /* comment submit button */
 /* comment form title */
-/* line 930, ../scss/_base.scss */
+/* line 934, ../scss/_base.scss */
 #comment-form-title {
   margin: 0 0 1.1em;
 }
@@ -1636,13 +1640,13 @@ COMMENT FORM STYLES
 /* cancel comment reply link */
 /* logged in comments */
 /* allowed tags */
-/* line 943, ../scss/_base.scss */
+/* line 947, ../scss/_base.scss */
 #allowed_tags {
   margin: 1.5em 10px 0.7335em 0;
 }
 
 /* no comments */
-/* line 948, ../scss/_base.scss */
+/* line 952, ../scss/_base.scss */
 .nocomments {
   margin: 0 20px 1.1em;
 }
@@ -1650,7 +1654,7 @@ COMMENT FORM STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 964, ../scss/_base.scss */
+/* line 968, ../scss/_base.scss */
 .widget ul li {
   /* deep nesting */
 }
@@ -1658,12 +1662,12 @@ SIDEBARS & ASIDES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 985, ../scss/_base.scss */
+/* line 989, ../scss/_base.scss */
 .footer {
   clear: both;
   text-align: center;
 }
-/* line 989, ../scss/_base.scss */
+/* line 993, ../scss/_base.scss */
 .footer p {
   font-size: 0.9em;
   color: #666666;
@@ -1679,55 +1683,32 @@ override these styles for the desktop
 view.
 */
 /* end .footer-links */
-/* Used for Resume page table styles */
-/* line 3, ../scss/_resume.scss */
-table.resume td, table.resume th {
-  color: #b7b7b7;
-  padding: 10px 20px 14px 0px;
-  vertical-align: top;
-  text-align: left;
+/* line 1, ../scss/_sprites.scss */
+.icon {
+  display: inline-block;
+  text-decoration: none !important;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  -transition: none;
+  transition: none;
 }
-/* line 9, ../scss/_resume.scss */
-table.resume td:first-child, table.resume th:first-child {
-  width: 35%;
+/* line 6, ../scss/_sprites.scss */
+.icon.rss {
+  background: url(../images/rss.png);
+  width: 20px;
+  height: 20px;
 }
-/* line 12, ../scss/_resume.scss */
-table.resume td.header {
-  border-bottom: solid 1px #666;
-  font-size: 1.25em;
-  padding-top: 36px !important;
-  padding-bottom: 5px;
-  color: #6699cc !important;
+/* line 11, ../scss/_sprites.scss */
+.icon.rss:hover {
+  background-position: 0px -20px;
 }
-/* line 20, ../scss/_resume.scss */
-table.resume td.titleblock {
-  border: solid 1px #333;
-  padding-bottom: 0px !important;
-  background: #202020;
-}
-/* line 26, ../scss/_resume.scss */
-table.resume h1, table.resume h2, table.resume h3, table.resume h4, table.resume h5, table.resume h6, table.resume h7, table.resume h8 {
-  line-height: normal;
-  margin: 0px 0px 6px 0px;
-}
-/* line 31, ../scss/_resume.scss */
-table.resume h4, table.resume .h4 {
-  color: #999999;
-  font-weight: normal;
-}
-/* line 36, ../scss/_resume.scss */
-table.resume h5, table.resume .h5 {
-  color: #737373;
-  margin-bottom: 1.5em;
-}
-/* line 41, ../scss/_resume.scss */
-table.resume ul, table.resume ol {
-  margin-left: 24px;
-  margin-top: 0px;
-}
-/* line 45, ../scss/_resume.scss */
-table.resume ul li, table.resume ol li {
-  list-style-type: disc;
+/* line 16, ../scss/_sprites.scss */
+.icon.logoimg {
+  background: url(../images/mhlogo_transp.png);
+  width: 189px;
+  height: 100px;
 }
 
 /*
@@ -2262,6 +2243,16 @@ query for retina AND a certain size if you want. Go Nuts.
   the original dimensions and you are good to go. 
   
   */
+  /* line 44, ../scss/_2x.scss */
+  .icon.rss {
+    background-image: url(../images/rss@2x.png);
+    background-size: 20px 40px;
+  }
+  /* line 49, ../scss/_2x.scss */
+  .icon.logoimg {
+    background-image: url(../images/mhlogo_transp@2x.png);
+    background-size: 189px 100px;
+  }
 }
 /*
 iPHONE 5 MEDIA QUERY

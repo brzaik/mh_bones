@@ -42,16 +42,16 @@
 
 			<div class="clearfix" style="width: 90%; margin:0 auto;">
 				<div class="row clearfix">
-					<div class="sub-nav threecol first" style="text-align: right;">
-						<p><a href="#">archive</a></p>
-					</div>
-					<div class="sixcol">
-						<img class="logoimg" src="<?php echo get_template_directory_uri(); ?>/library/images/mhlogo_transp.png" alt="Mutable Horizon" />
+					<div class="twelvecol first last">
+						<a href="/" class="icon logoimg" title="Home">&nbsp;</a>
 						<h1><a href="/"><b>mutable</b>horizon</a></h1>
-						<h2><i>by</i>&nbsp;&nbsp;<a href="http://brzaik.com">BRIAN ZAIK</a></h2>
-					</div>
-					<div class="sub-nav threecol last" style="text-align: left;">
-						<p><a href="#">feed</a></p>
+						<h2>
+							<i>by</i>
+							&nbsp;
+							<a href="http://brzaik.com">BRIAN ZAIK</a>
+							&nbsp;&nbsp;
+							<a class="icon rss" href="/?feed=rss2">&nbsp;</a>
+						</h2>
 					</div>
 				</div>
 			</div>

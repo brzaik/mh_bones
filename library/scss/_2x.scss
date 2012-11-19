@@ -40,3 +40,15 @@ the original dimensions and you are good to go.
 
 */
 
+.icon {
+  &.rss {
+    background-image: url(../images/rss@2x.png);
+    background-size: 20px 40px;
+  }
+
+  &.logoimg {
+    background-image: url(../images/mhlogo_transp@2x.png);
+    background-size: 189px 100px;
+  }
+}
+

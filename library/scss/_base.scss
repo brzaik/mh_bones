@@ -171,7 +171,7 @@ HEADER SYTLES
 	background-color: $black;
 	text-align: center;
 	margin: 0px;
-	padding-top: 20px;
+	padding: 20px 0px;
 
 	// this css causes a white arrow to be placed 
 	// in the center of the header (e.g. below the main 
@@ -202,6 +202,10 @@ HEADER SYTLES
 			color: $gray;
 			letter-spacing: 0.15em;
 			text-decoration: underline;
+		}
+
+		.icon.rss {
+			line-height: 0.9em;
 		}
 	}
 
