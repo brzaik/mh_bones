@@ -168,10 +168,19 @@ HEADER SYTLES
 *********************/
 
 .header {
-	background: $black;
+	background-color: $black;
 	text-align: center;
 	margin: 0px;
-	margin-bottom: 24px;
+	padding-top: 20px;
+
+	// this css causes a white arrow to be placed 
+	// in the center of the header (e.g. below the main 
+	// menu item)
+	&.select-1 {
+		background-image: url(../images/tri_white_up.png);
+		background-position: bottom center;
+		background-repeat: no-repeat;
+	}
 
 	h1, h2, h3 { margin: 0px; }
 	h3 { color: $gray; }
@@ -180,6 +189,10 @@ HEADER SYTLES
 		font-size: 3.6em;
 		letter-spacing: 0.02em;
 		line-height: normal;
+
+		a { 
+			color: $white !important;
+		}
 	}
 	h2 {
 		font-size: 1.6em;
@@ -197,6 +210,10 @@ HEADER SYTLES
 			font-size: 1.5em;
 		}
 	}
+
+	.logoimg {
+		margin: 0.5em 0;
+	} 
 }
 
 /*********************
@@ -357,7 +374,7 @@ POSTS & CONTENT STYLES
 *********************/
 
 #content {
-	margin-top: 2.2em;
+	
 }
 
 		.hentry {

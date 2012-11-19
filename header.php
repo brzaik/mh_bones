@@ -38,15 +38,16 @@
 	
 	<body <?php body_class(); ?>>
 	
-		<header class="header clearfix" role="banner">
+		<header class="header select-1 clearfix" role="banner">
 
 			<div class="clearfix" style="width: 90%; margin:0 auto;">
-				<div class="row">
+				<div class="row clearfix">
 					<div class="sub-nav threecol first" style="text-align: right;">
 						<p><a href="#">archive</a></p>
 					</div>
 					<div class="sixcol">
-						<h1><b>mutable</b>horizon</h1>
+						<img class="logoimg" src="<?php echo get_template_directory_uri(); ?>/library/images/mhlogo_transp.png" alt="Mutable Horizon" />
+						<h1><a href="/"><b>mutable</b>horizon</a></h1>
 						<h2><i>by</i>&nbsp;&nbsp;<a href="http://brzaik.com">BRIAN ZAIK</a></h2>
 					</div>
 					<div class="sub-nav threecol last" style="text-align: left;">
