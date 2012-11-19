@@ -12,7 +12,7 @@
 						
 								<header class="article-header">
 							
-									<h1 class="h2 entry-title single-title" itemprop="headline"><?php the_title(); ?></h1>
+									<h1 class="h1 entry-title single-title" itemprop="headline"><?php the_title(); ?></h1>
 							
 									<p class="byline vcard"><?php _e("Posted", "bonestheme"); ?> <time class="updated" datetime="<?php echo the_time('Y-m-j'); ?>" pubdate><?php the_time('F jS, Y'); ?></time> <?php _e("by", "bonestheme"); ?> <span class="author"><?php the_author_posts_link(); ?></span> <span class="amp">&amp;</span> <?php _e("filed under", "bonestheme"); ?> <?php the_category(', '); ?>.</p>
 						
@@ -53,8 +53,6 @@
 						<?php endif; ?>
 			
 					</div> <!-- end #main -->
-    
-					<?php get_sidebar(); ?>
 
 				</div> <!-- end #inner-content -->
     

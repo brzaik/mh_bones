@@ -39,8 +39,6 @@ LAYOUT & GRID STYLES
 	margin: 0px;
 }
 #inner-content {
-	width: 70%;
-	margin: 0 auto;
 	padding-top: 20px;
 }
 
@@ -50,7 +48,6 @@ HEADER SYTLES
 
 .header {  
 	margin-bottom: 0px;
-	padding-bottom: 20px;
 
 	.sub-nav p { 
 		margin: 0px;
@@ -190,6 +187,17 @@ NAVIGATION STYLES
 
 	}
 }
+
+
+/*********************
+POSTS & CONTENT STYLES
+*********************/
+
+.post {
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
 
 /*********************
 SIDEBARS & ASIDES

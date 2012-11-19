@@ -52,3 +52,10 @@ the original dimensions and you are good to go.
   }
 }
 
+.header {
+  &.select-1 {
+    background-image: url(../images/tri_white_up@2x.png);
+    background-size: 17px 12px;
+  }
+}
+
