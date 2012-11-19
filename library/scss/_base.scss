@@ -420,7 +420,9 @@ POSTS & CONTENT STYLES
 		/* entry content */
 		.entry-content {
 			line-height: 1.7em;
-			font-size: 1.4em;
+			font-size: 16px;
+			width: 90%;
+			margin: 0 auto;
 
 			h1, h2, h3, h4, h5, h6, h7, h8 {
 				color: $white;
@@ -433,7 +435,7 @@ POSTS & CONTENT STYLES
 			h5, h6, h7, h8 { font-size: 1em; }
 
 			p {
-				text-indent: 3em;
+				text-indent: 1.5em;
 			}
 
 

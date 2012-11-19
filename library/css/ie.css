@@ -547,15 +547,21 @@ POSTS & CONTENT STYLES
   padding-right: 15%;
 }
 
+/* line 201, ../scss/_768up.scss */
+.entry-content {
+  width: 100%;
+  font-size: 20px;
+}
+
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 206, ../scss/_768up.scss */
+/* line 211, ../scss/_768up.scss */
 .sidebar {
   margin-top: 2.2em;
 }
 
-/* line 210, ../scss/_768up.scss */
+/* line 215, ../scss/_768up.scss */
 .widgettitle {
   color: #999999;
   text-transform: uppercase;
@@ -563,23 +569,23 @@ SIDEBARS & ASIDES
   margin-bottom: 0.5em;
 }
 
-/* line 217, ../scss/_768up.scss */
+/* line 222, ../scss/_768up.scss */
 .widget {
   float: left;
   width: 30%;
   text-align: left;
 }
-/* line 222, ../scss/_768up.scss */
+/* line 227, ../scss/_768up.scss */
 .widget ul {
   margin: 0px;
 }
-/* line 225, ../scss/_768up.scss */
+/* line 230, ../scss/_768up.scss */
 .widget ul li {
   margin: 1em 0;
   line-height: normal;
   /* deep nesting */
 }
-/* line 234, ../scss/_768up.scss */
+/* line 239, ../scss/_768up.scss */
 .widget ul li ul {
   margin-top: 0.5em;
   padding-left: 1em;
@@ -599,7 +605,7 @@ SIDEBARS & ASIDES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 335, ../scss/_768up.scss */
+/* line 340, ../scss/_768up.scss */
 .footer {
   width: 70%;
   margin: 0 auto;
@@ -610,7 +616,7 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-/* line 347, ../scss/_768up.scss */
+/* line 352, ../scss/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.
