@@ -27,6 +27,9 @@
 		<?php wp_head(); ?>
 		<!-- end of wordpress head -->
 		<link href='http://fonts.googleapis.com/css?family=Asap:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+		<script type="text/javascript" src="http://use.typekit.net/zyx8twa.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 			
 		<!-- drop Google Analytics Here -->
 		<!-- end analytics -->
@@ -35,38 +38,21 @@
 	
 	<body <?php body_class(); ?>>
 	
-		<div id="container" class="wrap">
-			
-			<header class="header clearfix" role="banner">
+		<header class="header clearfix" role="banner">
 
-				<div id="logo-block" class="border-right" style="padding-bottom: 12px;">
-					<a id="logo" href="<?php echo home_url(); ?>" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/library/images/dbLogo.png" alt="Dan Ostrov" /></a>
+			<div class="clearfix" style="width: 90%; margin:0 auto;">
+				<div class="row">
+					<div class="sub-nav threecol first" style="text-align: right;">
+						<p><a href="#">archive</a></p>
+					</div>
+					<div class="sixcol">
+						<h1><b>mutable</b>horizon</h1>
+						<h2><i>by</i>&nbsp;&nbsp;<a href="http://brzaik.com">BRIAN ZAIK</a></h2>
+					</div>
+					<div class="sub-nav threecol last" style="text-align: left;">
+						<p><a href="#">feed</a></p>
+					</div>
 				</div>
-
-				<div id="title-block">
-					<h1 id="title-link"><a href="<?php echo home_url(); ?>" rel="nofollow">Dan Ostrov</a></h1>
-					<h3>Technical Director</h3>
-				</div>
-			
-			</header> <!-- end header -->
-
-			<div id="sidebar-content" class="clearfix border-right">
-
-				<nav id="main-nav" role="navigation">
-					<?php bones_main_nav(); ?>
-				</nav>
-
-				<div class="clearfix"></div>
-
-				<!-- call search box in header -->
-				<div class="search">
-					<form method="get" id="searchform" action="<?php bloginfo('home'); ?>/">
-						<div>
-							<input type="text" size="put_a_size_here" name="s" id="s" value="Search site..." onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"/>
-						</div>
-					</form>
-				</div>
-
-				<?php get_sidebar(); ?>
-
 			</div>
+		
+		</header> <!-- end header -->

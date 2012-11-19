@@ -35,17 +35,12 @@ LAYOUT & GRID STYLES
 	border-right: solid 1px $gray;
 	padding-right: 3px;
 }
-#sidebar-content {
-	background: url(../images/sidebar_bg.png) top right no-repeat;
-	float: left;
-	width: 20%;
-	padding-top: 50px;
-	min-height: 700px;
-}
 #content {
-	float: right;
-	width: 74%;
-	margin-top: 0px;
+	margin: 0px;
+}
+#inner-content {
+	width: 70%;
+	margin: 0 auto;
 	padding-top: 20px;
 }
 
@@ -55,6 +50,11 @@ HEADER SYTLES
 
 .header {  
 	margin-bottom: 0px;
+
+	.sub-nav p { 
+		margin: 0px;
+		margin-top: 2.7em; 
+	}
 }
  
 #logo {
@@ -206,9 +206,9 @@ SIDEBARS & ASIDES
 	}
 
 	.widget {
-		padding: 0 10px;
-		margin: 2.2em 0;
-		text-align: right;
+		float: left;
+		width: 30%;
+		text-align: left;
 
 		ul {
 			margin: 0px;
@@ -323,7 +323,10 @@ SIDEBARS & ASIDES
 FOOTER STYLES
 *********************/
 
-.footer { }
+.footer { 
+	width: 70%;
+	margin: 0 auto;
+}
 
 /*
 you'll probably need to do quite a bit

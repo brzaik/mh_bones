@@ -20,7 +20,7 @@ body {
 	font-size: 14px; 
 	line-height: 1.5;
 	color: $white;
-	background: lighten($black, 8%);
+	background: $black;
 }
 
 /********************
@@ -77,6 +77,10 @@ LAYOUT & GRID STYLES
 	padding-bottom: 24px;
 }
 
+#content {
+	background: $white;
+}
+
 hr {
 	background-color: $grayDark;
 	color: $grayDark;
@@ -89,12 +93,12 @@ LINK STYLES
 
 a, a:visited {
 	color: $link-color;
-	text-decoration: none;
+	text-decoration: underline;
+	@include transition(all 0.2s linear);
 
 	/* on hover */
 	&:hover, &:focus {
-		color: $link-hover;
-		text-decoration: underline;
+		color: lighten($link-color, 15%);
 	}
 
 	/* on click */
@@ -164,33 +168,41 @@ HEADER SYTLES
 *********************/
 
 .header {
+	background: $black;
 	text-align: center;
-	margin: 24px 0px;
+	margin: 0px;
+	margin-bottom: 24px;
 
 	h1, h2, h3 { margin: 0px; }
 	h3 { color: $gray; }
-}
-#title-link a {
-	font-size: 44px;
-	color: $white;
-}
-#logo {
-	margin-bottom: 8px;
-	display: block;
 
-	img { max-width: 50%; } 
+	h1 {
+		font-size: 3.6em;
+		letter-spacing: 0.02em;
+		line-height: normal;
+	}
+	h2 {
+		font-size: 1.6em;
+		color: lighten($grayDark, 20%);
+
+		a { 
+			color: $gray;
+			letter-spacing: 0.15em;
+			text-decoration: underline;
+		}
+	}
+
+	.sub-nav {
+		p {
+			font-size: 1.5em;
+		}
+	}
 }
 
 /*********************
 LAYOUT & GRID STYLES
 *********************/
 
-// this search box div appears in the top header
-#sidebar-content .search {
-	@extend .clearfix;
-	padding: 24px 0px 24px 10px;
-	text-align: center;
-}
 
 /*********************
 NAVIGATION STYLES
@@ -956,8 +968,6 @@ FOOTER STYLES
 .footer {
 	clear: both;
 	text-align: center; 
-	border-top: solid 1px $grayDark;
-	margin-top: 40px;
 
 	p {
 		font-size: 0.9em;
